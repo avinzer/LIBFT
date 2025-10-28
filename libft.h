@@ -1,6 +1,10 @@
 #ifndef LIB_FT_H
 #define LIB_FT_H
 
+#include "stdlib.h"
+#include "stdio.h"
+#include "unistd.h"
+#include "string.h"
 
 int ft_isalnum(int c);
 int ft_isalpha(int c);

@@ -9,7 +9,7 @@ int main()
     char a[] = "ferid";
     // char *a;
 
-    char b[] = "khadid";
+    char b = 'r';
 
-    printf("%s", memcpy(a, b, 5));
+    printf("%s", memchr(a, b, 4));
 }
